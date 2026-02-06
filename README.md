@@ -20,10 +20,10 @@ This leaves us with roughly 2,750,000 records
 ## Model Comparisons
 
 Evaluation Matrix
--MSE
--RMSE
--RMSLE
--MAE
+- MSE
+- RMSE
+- RMSLE
+- MAE
 
 Model________  RMSLE__	RMSE___	MSE________ MAE_____ Training Time\
 XGBoost______  0.03___ 0.41___  0.17_______ 0.02____	6.53\
