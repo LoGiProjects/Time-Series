@@ -17,3 +17,15 @@ This leaves us with roughly 2,750,000 records
 - Insights
 - Recommendation / Reflection
 
+## Model Comparisons
+
+Evaluation Matrix
+-MSE
+-RMSE
+-RMSLE
+-MAE
+
+Model________ RMSLE__	RMSE___	MSE________ MAE_____ Training Time
+XGBoost______ 0.03___ 0.41___ 0.17_______ 0.02____	6.53
+ARIMA_______	0.43___ 0.98__	0.95_______ 0.46____ 73.64
+Holt-Winters	7.29___ 2948.84 8695643.37_ 2553.83_ 450.48
